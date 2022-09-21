@@ -13,11 +13,11 @@
         <a href="#" id="logo">Your logo</a>
 
         <nav class="navbar">
-            <a href="#">home</a>
-            <a href="#">class</a>
-            <a href="#">about</a>
-            <a href="#">gallery</a>
-            <a href="#">contact</a>
+            <a href="#home">home</a>
+            <a href="#class">class</a>
+            <a href="#about">about</a>
+            <a href="#gallery">gallery</a>
+            <a href="#contact">contact</a>
         </nav>
 
         <div class="icon">
@@ -43,7 +43,7 @@
     </header>
 
 
-<div id="home" class="back">
+<div id="home" class="home">
     <div class="mian-home">
         <div class="inner-home">
             <img src="images/for bg.png" alt="">
@@ -59,7 +59,7 @@
     </div>
 </div>
 
-<div class="our-classes">
+<div class="our-classes" id="class">
 
     <h1>our classes</h1>
 
@@ -93,7 +93,7 @@
     </div>
 </div>
 
-<div class="our-instructor">
+<div class="our-instructor" id="about">
     <h1>Our instructor</h1>
     <div class="main-instructor">
         <div class="inner-instructor">
@@ -131,7 +131,7 @@
 
 
 
-<div class="our-gallery">
+<div class="our-gallery" id="gallery">
     <h1>gallery</h1>
     <div class="main-gallery">
         <div class="inner-gallery">
@@ -196,14 +196,15 @@
 
 <!-- contact us -->
 
-<div class="contact-us">
+<div class="contact-us" id="contact">
     <div class="main-contact">
         <div class="inner-contact">
             <h1>Contact us</h1>
             <div class="inner-form-contact">
                 <input type="text" placeholder="your name">
                 <input type="email" placeholder="your email">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="" placeholder="description" id="" cols="30" rows="10"></textarea>
+                <input type="button" class="input" value="Send">
             </div>
         </div>
 
@@ -213,6 +214,10 @@
     </div>
 </div>
 
-    <script src="script.js"></script>
+
+
+
+    <script src="javascript/script.js"></script>
+    <script src="javascript/main.js"></script>
 </body>
 </html>
